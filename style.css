@@ -66,6 +66,10 @@ body {
   text-shadow: 2px 2px 3px rgb(29, 29, 31);
 }
 
+.project_description p {
+  text-align: center;
+}
+
 .bg-bubbles {
   top: 0;
   left: 0;
@@ -100,8 +104,8 @@ body {
   height: 80px;
   -webkit-animation-delay: 14s;
           animation-delay: 14s;
-  -webkit-animation-duration: 8s;
-          animation-duration: 8s;
+  -webkit-animation-duration: 28s;
+          animation-duration: 28s;
 }
 
 .bg-bubbles li:nth-child(4) {
@@ -120,8 +124,8 @@ body {
   height: 70px;
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
-  -webkit-animation-duration: 9s;
-          animation-duration: 9s;
+  -webkit-animation-duration: 29s;
+          animation-duration: 29s;
 }
 
 .bg-bubbles li:nth-child(7) {
@@ -240,7 +244,7 @@ body {
     opacity: 0.85;
   }
   100% {
-    transform: translateY(-450px) rotate(600deg);
+    transform: translateY(-40vh) rotate(600deg);
     opacity: 0;
   }
 }
@@ -251,7 +255,7 @@ body {
     opacity: 0.85;
   }
   100% {
-    transform: translateY(-450px) rotate(600deg);
+    transform: translateY(-40vh) rotate(600deg);
     opacity: 0;
   }
 }/*# sourceMappingURL=style.css.map */

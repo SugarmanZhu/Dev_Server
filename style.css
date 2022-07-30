@@ -71,6 +71,7 @@ body {
 }
 
 .bg-bubbles {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -82,7 +83,7 @@ body {
   list-style: none;
   display: block;
   background-color: rgb(255, 255, 255);
-  bottom: -160px;
+  bottom: -120vh;
   animation: square 25s infinite;
   transition-timing-function: linear;
   -webkit-animation: square 25s infinite;
@@ -257,5 +258,10 @@ body {
   100% {
     transform: translateY(-40vh) rotate(600deg);
     opacity: 0;
+  }
+}
+@media screen and (max-width: 768px), screen and (max-height: 768px) {
+  .bg-bubbles {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

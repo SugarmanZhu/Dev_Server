@@ -83,9 +83,10 @@ body {
   display: block;
   background-color: rgb(255, 255, 255);
   bottom: -160px;
-  -webkit-animation: square 25s infinite;
-          animation: square 25s infinite;
+  animation: square 25s infinite;
   transition-timing-function: linear;
+  -webkit-animation: square 25s infinite;
+  -webkit-transition-timing-function: linear;
 }
 
 .bg-bubbles li:nth-child(1) {
@@ -238,7 +239,7 @@ body {
           animation-duration: 37s;
 }
 
-@-webkit-keyframes square {
+@keyframes square {
   0% {
     transform: translateY(0);
     opacity: 0.85;
@@ -248,8 +249,7 @@ body {
     opacity: 0;
   }
 }
-
-@keyframes square {
+@-webkit-keyframes square {
   0% {
     transform: translateY(0);
     opacity: 0.85;

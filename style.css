@@ -70,6 +70,10 @@ body {
   text-align: center;
 }
 
+.project_description a {
+  text-align: center;
+}
+
 .bg-bubbles {
   position: absolute;
   top: 0;

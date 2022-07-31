@@ -38,7 +38,7 @@ function update() {
             message.innerText = "You clicked too fast";
             cnt++;
         } else {
-            message.innerText = "Reaction time: " + reactionTime + " ms";
+            message.innerText = "Reaction time: " + reactionTime + "ms";
         }
     } else {
         console.log("Invalid State");

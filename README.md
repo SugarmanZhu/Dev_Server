@@ -12,4 +12,4 @@ Random User Generator page: https://ec2.zhuxiaotan.xyz/random_user_generator/ (J
 
 Test Reaction Time page: https://ec2.zhuxiaotan.xyz/reaction_time/ (TypeScript, VueJS)
 
-I am trying to make the webpages mobile-friendly, but you would have a better experience viewing these web pages on a desktop device :)
+I aim to make the webpages mobile-friendly, but you would have a better experience viewing these web pages on a desktop device :)

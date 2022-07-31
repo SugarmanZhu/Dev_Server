@@ -8,5 +8,4 @@ import BackButton from "./components/BackButton.vue";
 <Test />
 </template>
 
-<style scoped>
-</style>
+<style />

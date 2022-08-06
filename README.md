@@ -14,7 +14,7 @@ Github Repo: https://github.com/SugarmanZhu/Random_User_Vercel
 Test Reaction Time page: https://reaction-time.zhuxiaotan.xyz (TypeScript, VueJS)
 Github Repo: https://github.com/SugarmanZhu/Reaction_Time_Vercel
 
-Get RSS Feeds page: https://rss.zhuxiaotan.xyz (JavaScript, NextJS)
+Get RSS Feeds page: https://rss.zhuxiaotan.xyz (JavaScript, NextJS, TailwindCSS)
 Github Repo: https://github.com/SugarmanZhu/RSS_Vercel
 
 I aim to make the webpages mobile-friendly, but you would have a better experience viewing these web pages on a desktop device :)
